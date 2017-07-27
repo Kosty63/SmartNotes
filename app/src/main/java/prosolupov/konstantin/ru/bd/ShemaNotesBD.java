@@ -1,4 +1,4 @@
-package altarix.ru.smartnotes.bd;
+package prosolupov.konstantin.ru.bd;
 
 /**
  * Created by home on 26.06.2017.

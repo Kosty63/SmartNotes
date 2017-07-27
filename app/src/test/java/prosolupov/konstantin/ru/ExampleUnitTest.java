@@ -1,4 +1,4 @@
-package altarix.ru.smartnotes;
+package prosolupov.konstantin.ru;
 
 import org.junit.Test;
 

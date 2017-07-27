@@ -1,4 +1,4 @@
-package altarix.ru.smartnotes;
+package prosolupov.konstantin.ru;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

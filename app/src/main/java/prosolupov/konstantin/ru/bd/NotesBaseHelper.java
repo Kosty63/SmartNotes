@@ -1,10 +1,10 @@
-package altarix.ru.smartnotes.bd;
+package prosolupov.konstantin.ru.bd;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import static altarix.ru.smartnotes.bd.ShemaNotesBD.CreateBD.NOTES_TABLE;
+import static prosolupov.konstantin.ru.bd.ShemaNotesBD.CreateBD.NOTES_TABLE;
 
 /**
  * Created by home on 26.06.2017.
@@ -23,7 +23,7 @@ public class NotesBaseHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL("create table " + NOTES_TABLE + "(" +
         "_id integer primary key autoincrement, " +
-                ShemaNotesBD.CreateBD.Column.ID_NOTES + ", " +
+/*                ShemaNotesBD.CreateBD.Column.ID_NOTES + ", " +*/
                 ShemaNotesBD.CreateBD.Column.TITLE + ", " +
                 ShemaNotesBD.CreateBD.Column.BODY + ")" );
     }
